@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  width: 1100px;
+  height: 768px;
+  margin: auto;
+  background-color: #edeff0;
+  font-family: sans-serif;
+}
+header{
+  padding: 30px;
+  height: 80px;
+}
+header h2{
+  width: 200px;
+  float: left;
+}
+header ul{
+  float: right;
+}
+header li{
+  float: left;
+  padding: 0 20px;
+  list-style: none;
+  border-right: 2px solid #93999e;
+}
+header li a{
+  display: block;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #93999e;
+}
+hr{
+  border: 1px solid #93999e;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(147,153,158,1);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(147,153,158,1);
+  box-shadow: 0px 2px 2px 0px rgba(147,153,158,1);
+}
+.bottom-hr{
+  clear: both;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.card{
+  height: 300px;
+  width: 45%;
+  border-radius: 10px;
+  margin: 20px;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(147,153,158,1);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(147,153,158,1);
+  box-shadow: 4px 4px 5px 0px rgba(147,153,158,1);
+}
+.card ul{
+  padding: 0 0 0 0;
+  margin-top: 20px;
+}
+.card li {
+  margin-left: 0;
+  float: left;
+  padding-right: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+.card li a{
+  text-decoration: none;
+}
+.card-header{
+  border-radius: 10px 10px 0 0;
+  height: 25%;
+  padding: 10px 20px;
+}
+.card-header a{
+  color: white;
+}
+.card-header li:last-child {
+  float:right;
+}
+.header-green{
+  background-color: #2c9473;
+}
+.header-pink{
+  background-color: #f092b0;
+}
+.header-violet{
+  background-color: #838cc7;
+}
+.card-body {
+  border-radius: 0 0 10px 10px;
+  height: 75%;
+  background-color: white;
+  clear:both;
+  padding: 30px 20px;}
+.card-body h3{
+  margin-top: 10px;
+}
+.card-body p{
+  margin-top: 20px;
+}
+.card-body button{
+margin: 30px 0 0 10px;
+padding: 10px;
+background: transparent;
+border-radius: 20px;
+border: 2px solid #d3d7db;
+font-weight: bold;
+}
+button:nth-of-type(4), button:nth-of-type(3){
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: right;
+  color: #d3d7db;
+}
+.text-green{
+  color: #2c9473;
+}
+.text-pink{
+  color: #f092b0;
+}
+.text-violet{
+  color: #838cc7;
+}
+.text-dark-gray{
+  color: #93999e;
+}
+.fa-play, .fa-star {
+  font-size: 1.5em;
+}
+.fa-book{
+  font-size: 25px;
+}
+.fa-circle-o{
+  font-size: 12px;
+  color: #cdd1d4;
+}
